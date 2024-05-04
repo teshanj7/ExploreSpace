@@ -1,0 +1,53 @@
+.profileHeading{
+    color: white;
+    font-family: "Aldrich", sans-serif;
+    margin-top: 2%;
+    font-size: 55px;
+    text-align: center;
+}
+
+.profileLogo{
+    width: 10%;
+    margin-left: 45%;
+    margin-bottom: -2%;
+}
+
+.userCard{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.userProfileHeading{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.userProfileText{
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+.profileBtn{
+    margin-right: 8%;
+    margin-left: 8%;
+    width: 30%;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+
+    .profileHeading{
+        color: white;
+        font-family: "Aldrich", sans-serif;
+        margin-top: 2%;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .profileLogo{
+        width: 20%;
+        margin-left: 40%;
+        margin-bottom: -2%;
+    }
+
+  }

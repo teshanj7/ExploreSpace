@@ -1,0 +1,48 @@
+.registerHeadingDiv{
+    background-color: white;
+    width: 32%;
+    border-radius: 30px;
+    margin-left: 35%;
+}
+
+.registerFormDiv{
+    padding-top: 20px;
+    width: 40%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 30%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.registerFooter{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.registerText{
+    font-size: 12px;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+
+    .registerHeadingDiv{
+        background-color: white;
+        width: 60%;
+        border-radius: 30px;
+        margin-left: 20%;
+    }
+
+    .registerFormDiv{
+        margin-top: 8%;
+        padding-top: 20px;
+        width: 60%;
+        height: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-left: 20%;
+        border-radius: 10px;
+        font-weight: bold;
+        margin-bottom: 20%;
+    }
+}
