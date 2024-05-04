@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Jost:wght@300&family=Righteous&display=swap');
+
+.indexBody {
+    background-image: url(../Index/indexBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.indexNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.indexHeading {
+    font-size: 70px;
+    text-align: left;
+    font-family: "Aldrich", sans-serif;
+    color: white;
+}
+
+.indexNasa {
+    cursor: pointer;
+    width: 100px;
+}
+
+.container {
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-70%);
+    text-align: center;
+}
+
+.indexBtn {
+    width: 30%;
+}
+
+.indexBtn:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.IndexBottom {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 767px) {
+    .indexHeading {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .indexBody {
+        background-color: black;
+    }
+
+    .indexNav {
+        text-align: center;
+    }
+
+    .container {
+        text-align: center;
+        margin: auto;
+        left: 105%
+    }
+
+    .IndexBottom {
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -70%;
+    }
+}

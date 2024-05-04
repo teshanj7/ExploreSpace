@@ -1,0 +1,87 @@
+.curiosityHeading{
+    color: white;
+    font-family: "Aldrich", sans-serif;
+    margin-top: 2%;
+    font-size: 55px;
+    text-align: center;
+}
+
+.curiosityPic{
+    margin-top: 3%;
+    width: 35%;
+    margin-bottom: 6%;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-right: 4%;
+    transition: 2s;
+}
+
+.curiosityPic:hover{
+    transform: scale(1.2);
+}
+
+.curiosityPara{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ParaDivCurio{
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+    width: 50%;
+    height: fit-content;
+    margin-top: 11%;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+.curiosityFlexBox{
+    margin-top: 1%;
+    display: flex;
+}
+
+@media (max-width: 800px) {
+
+    .curiosityHeading{
+        color: white;
+        font-family: "Aldrich", sans-serif;
+        margin-top: 2%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .curiosityFlexBox{
+        flex-direction: column;
+    }
+
+    .curiosityPic{
+        margin-top: 6%;
+        width: 55%;
+        margin-bottom: 6%;
+        border: 2px solid white;
+        border-radius: 5px;
+        margin-left: 22%;
+        margin-right: 4%;
+        transition: 2s;
+    }
+
+    .ParaDivCurio{
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: white;
+        width: 80%;
+        height: fit-content;
+        margin-top: 5%;
+        border: 4px solid black;
+        border-radius: 5px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+
+    
+  }
