@@ -25,7 +25,7 @@ export default function Apod() {
         const formattedDate = `${currentDate.getDate()}/${currentDate.getMonth() + 1}/${currentDate.getFullYear()}`;
         setTodayDate(formattedDate);
 
-        setUserName(user.userName);
+        // setUserName(user.userName);
 
         fetchApodData();
 
@@ -42,7 +42,7 @@ export default function Apod() {
         <div className="ApodDiv">
             <div><h1 className="ApodHeading">Astronomy Picture Of the Day - {todayDate}</h1></div>
             <div>
-                <p className="ApodParaOne">@{userName}, your daily astronomy pic is ready. Check it out and explore the black matter 🚀. </p>
+                <p className="ApodParaOne">Your daily astronomy pic is ready. Check it out and explore the black matter 🚀. </p>
             </div>
             <hr style={{ color: "white", border: "2px solid white" }}></hr>
             {isLoading ? ( // Render loading text if loading is true
