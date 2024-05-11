@@ -17,7 +17,7 @@ export default function Login() {
     async function login(e){
         e.preventDefault();
 
-        let result = await fetch("http://localhost:8070/auth/login", {
+        let result = await fetch("https://explorespace-be.onrender.com/auth/login", {
             method: 'post',
             body: JSON.stringify({ email, password }),
             headers: {

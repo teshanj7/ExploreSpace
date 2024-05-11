@@ -28,7 +28,7 @@ export default function UserProfile() {
     //delete
     const deleteUser = async (_id) => {
         if (window.confirm("Do you want to delete your user account?")) {
-            const res = await axios.delete(`http://localhost:8070/user/delete/${_id}`);
+            const res = await axios.delete(`https://explorespace-be.onrender.com/user/delete/${_id}`);
             if (res.status === 200) {
                 window.location.href = ``;
                 toast.error('User account deleted..!', {

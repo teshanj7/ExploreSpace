@@ -16,7 +16,7 @@ export default function Register() {
 
         const newUser = { fullName, email, userName, password }
 
-        axios.post("http://localhost:8070/auth/add", newUser).then(() => {
+        axios.post("https://explorespace-be.onrender.com/auth/add", newUser).then(() => {
             alert("User Registered Successfully, Welcome to ExploreSpace!🪐")
             window.location.href = `/login`;
         }).catch((err) => {
