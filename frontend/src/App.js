@@ -8,12 +8,6 @@ import LoginPage from './components/Login/login';
 import RegisterPage from './components/Register/register';
 import Header from './components/Header/header';
 import Home from './components/HomePage/home';
-import APOD from './components/APOD/apod';
-import MarsRover from './components/MarsRover/marsrover';
-import Curiosity from './components/Curiosity/Curiosity';
-import Opportunity from './components/Opportunity/Opportunity';
-import Spirit from './components/Spirit/spirit';
-import UserProfile from './components/UserProfile/userprofile';
 
 function App() {
   // user details pass
@@ -38,12 +32,6 @@ function App() {
           <Route path='/login' element={<LoginPage />} />
           <Route path='/register' element={<RegisterPage />} />
           <Route path='/home/:id' element={<Home />} />
-          <Route path='/apod/:id' element={<APOD />} />
-          <Route path='/marsrover/:id' element={<MarsRover />} />
-          <Route path='/curiosity/:id' element={<Curiosity />} />
-          <Route path='/opportunity/:id' element={<Opportunity />} />
-          <Route path='/spirit/:id' element={<Spirit />} />
-          <Route path='/userprofile/:id' element={<UserProfile />} />
         </Routes>
       </UserContext.Provider>
     </Router>
