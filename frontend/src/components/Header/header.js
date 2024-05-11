@@ -5,8 +5,6 @@ import UserContext from "../ContextComponents/ContextComponent";
 export default function Header(props) {
 
     const location = useLocation();
-
-    const id = props.id;
     const { user } = useContext(UserContext);
 
 
