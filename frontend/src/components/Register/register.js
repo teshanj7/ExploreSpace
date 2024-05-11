@@ -31,7 +31,7 @@ export default function Register() {
                     <h1 className="indexHeading">ExploreSpace™</h1>
                 </div>
                 <div className="indexLogo">
-                    <img src={nasapic} className="indexNasa" onClick={(e) => {
+                    <img src={nasapic} className="indexNasa" alt="" onClick={(e) => {
                         e.preventDefault();
                         window.location.href = `https://www.nasa.gov`;
                     }} />

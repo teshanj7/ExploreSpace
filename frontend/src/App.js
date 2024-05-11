@@ -6,7 +6,6 @@ import UserContext from "./components/ContextComponents/ContextComponent";
 import Index from './components/Index/index';
 import LoginPage from './components/Login/login';
 import RegisterPage from './components/Register/register';
-import Header from './components/Header/header';
 import Home from './components/HomePage/home';
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
   return (
     <Router>
       <UserContext.Provider value={{ user, setUser }}>
-        <Header />
         <Routes>
           <Route path='' element={<Index />} />
           <Route path='/login' element={<LoginPage />} />
